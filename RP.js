@@ -4,7 +4,7 @@ const client = new Discord.Client( { autoreconnect: true } );
 client.on('ready', () => {
     delete client.users;
     delete client.channels;
-    delete client.guilds;
+    //delete client.guilds;
     delete client.emojis;
     delete client.presences;
     console.log("Успешный запуск RP");
