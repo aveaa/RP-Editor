@@ -1,0 +1,14 @@
+{
+  "name": "RP",
+  "version": "1.0.0",
+  "description": "richpresence editor",
+  "main": "RP.js",
+  "scripts": {
+    "start": "node RP.js"
+  },
+  "author": "impulse-x",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
