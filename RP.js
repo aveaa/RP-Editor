@@ -2,11 +2,11 @@ const Discord = require('discord.js');
 const client = new Discord.Client( { autoreconnect: true } );
 
 client.on('ready', () => {
-    delete client.users;
+    /*delete client.users;
     delete client.channels;
-    //delete client.guilds;
+    delete client.guilds;
     delete client.emojis;
-    delete client.presences;
+    delete client.presences;*/
     console.log("Успешный запуск RP");
     client.user.setPresence({
       status: 'dnd', //статус вашего аккаунта (dnd, idle, invisible, online)
