@@ -7,9 +7,6 @@ client.on('ready', () => {
       status: 'dnd', //статус вашего аккаунта (dnd, idle, invisible, online)
       game: {
         name: 'cosmoteer', //название вашей игры
-        state: 'in game', //текст на 2 линии
-        details: '12 solar systems', //текст на 1 линии
-        application_id: '442351930929577995', //id вашего приложения
       }
     },);
     console.log("Успех");
